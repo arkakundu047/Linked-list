@@ -70,7 +70,7 @@ int main(){
 	for(int i=1;i<count+1;i++){
 		cout<<"enter the "<<i<<"th element"<<" ";
 		cin >> val;
-		InsertAtHead(head,val);
+		InsertAtTail(head,val);
 	}
 	
 /*	InsertAtTail(head,2);
@@ -89,8 +89,6 @@ int main(){
 	cin>>val;
 	InsertAtPosition(head,p,val);
 	cout<<"after insertion linked list is "<<endl;
-	display(head);
-	cout<<"after insertion the linked list is "<<endl;
 	display(head);
 	cout<<"enter the element to be deleted"<<endl;
 	cin>>val;
